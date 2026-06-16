@@ -11,18 +11,47 @@ export type Car = {
 export const cars: Car[] = [
     {
         id: 1,
-        name: 'Ford Mustang GT4',
-        class: 'GT4',
-        image: 'https://ir-core-sites.iracing.com/members/member_images/cars/carid_204/shot_ss_2_screen_full.jpg',
+        name: "Ford Mustang GT4",
+        class: "GT4",
+        image:
+            "https://ir-core-sites.iracing.com/members/member_images/cars/carid_204/shot_ss_2_screen_full.jpg",
         description:
-            'O Ford Mustang GT4 é um carro de corrida baseado no icônico Mustang, projetado para competir na classe GT4. Ele apresenta um motor V8 de 5.2 litros, suspensão ajustável e uma aerodinâmica otimizada para oferecer desempenho excepcional nas pistas.',
+            "Carro GT4 baseado no Mustang, equilibrado e estável, bom para corridas longas e pilotos que preferem um comportamento mais previsível.",
     },
     {
         id: 2,
-        name: 'BMW M4 GT3 EVO',
-        class: 'GT3',
-        image: 'https://ir-core-sites.iracing.com/members/member_images/cars/carid_132/shot_ss_4_screen_full.jpg',
+        name: "BMW M4 GT3",
+        class: "GT3",
+        image:
+            "https://ir-core-sites.iracing.com/members/member_images/cars/carid_132/shot_ss_4_screen_full.jpg",
         description:
-            'O BMW M4 GT3 EVO é um supercarro alemão que apresenta um design aerodinâmico e um motor V8 biturbo, proporcionando uma experiência de condução emocionante.',
-    }
+            "GT3 moderno com boa tração nas saídas de curva e forte em freagens, muito usado nas séries de endurance.",
+    },
+    {
+        id: 3,
+        name: "Mercedes-AMG GT4",
+        class: "GT4",
+        image:
+            "https://ir-core-sites.iracing.com/members/member_images/cars/carid_188/shot_ss_2_screen_full.jpg",
+        description:
+            "GT4 frontal com V8 potente, ótimo torque em baixa e muito popular em campeonatos multicategoria.",
+    },
+    {
+        id: 4,
+        name: "Ferrari 296 GT3",
+        class: "GT3",
+        image:
+            "https://ir-core-sites.iracing.com/members/member_images/cars/carid_212/shot_ss_2_screen_full.jpg",
+        description:
+            "GT3 de motor central, muito ágil em mudanças de direção, exige pilotagem precisa para extrair o máximo em pistas técnicas.",
+    },
+    {
+        id: 5,
+        name: "Porsche 718 Cayman GT4 Clubsport",
+        class: "GT4",
+        image:
+            "https://ir-core-sites.iracing.com/members/member_images/cars/carid_165/shot_ss_2_screen_full.jpg",
+        description:
+            "GT4 com motor central e traseira muito comunicativa, excelente opção para aprender linhas e controle de carro.",
+    },
 ];
