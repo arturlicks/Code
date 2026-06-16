@@ -28,14 +28,14 @@ export default function TracksPage() {
                             <p className="text-sm text-slate-300">{track.description}</p>
                         </div>
 
-                        <div className="h-[200px] w-[300px] shrink-0 overflow-hidden rounded">
+                        <div className="h-[180px] w-[300px] shrink-0">
                             <Image
                             src={track.image}
                             alt={track.name}
                             width={300}
-                            height={200}
+                            height={180}
                             priority
-                            className="h-full w-full object-cover"
+                            className="rounded"
                             />
                         </div>
                     </li>
