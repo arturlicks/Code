@@ -1,7 +1,7 @@
 "use client";
 
+import TrackCard from "@/components/trackCard";
 import { tracks } from "@/data/tracks";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function TracksPage() {
@@ -23,21 +23,7 @@ export default function TracksPage() {
             <ul className="mt-4 flex flex-col gap-2">
                 {tracks.filter((track) => track.name.toLowerCase().includes(searchTerm.toLowerCase())).map((track) => (
                     <li className="flex items-stretch gap-3 rounded border border-slate-800 bg-slate-900 p-3 hover:bg-slate-700" key={track.id}>
-                        <div className="flex flex-1 flex-col gap-1">
-                            <h2 className="text-lg font-semibold">{track.name}</h2>
-                            <p className="text-sm text-slate-300">{track.description}</p>
-                        </div>
-
-                        <div className="h-[180px] w-[300px] shrink-0">
-                            <Image
-                            src={track.image}
-                            alt={track.name}
-                            width={300}
-                            height={180}
-                            priority
-                            className="rounded"
-                            />
-                        </div>
+                        <TrackCard name={track.name} description={track.description} image={track.image} />
                     </li>
                 ))}
             </ul>
