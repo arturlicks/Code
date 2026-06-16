@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "Perplexity": {
+      "command": "node",
+      "args": [
+        "/home/arturlicks/.perplexity-mcp/start.mjs"
+      ],
+      "env": {},
+      "type": "stdio"
+    }
+  }
+}
