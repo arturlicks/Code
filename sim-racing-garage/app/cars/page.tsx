@@ -8,15 +8,15 @@ export default function CarsPage() {
 
     return (
         <main className="flex flex-col gap-4">
-            <h1 className="text-2xl font-bold">Carros</h1>
-            <p className="text-slate-300">Lista de carros vai aparecer aqui.</p>
+            <h1 className="text-2xl font-bold">Cars</h1>
+            <p className="text-slate-300">A list of cars will appear here.</p>
 
             <div className="flex gap-2">
                 <input
                     type="text"
-                    name="busca"
-                    id="busca"
-                    placeholder="Buscar carros..."
+                    name="search"
+                    id="search"
+                    placeholder="Search cars..."
                     className="flex-1 rounded border border-slate-700 bg-slate-900 px-3 py-2 text-sm"
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}

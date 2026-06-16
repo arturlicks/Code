@@ -4,14 +4,13 @@ import Image from "next/image";
 export default function TracksPage() {
     return (
         <main>
-            <h1>Pistas</h1>
-            <p>Lista de pistas vai aparecer aqui.</p>
+            <h1>Tracks</h1>
             <div className="flex gap-2">
                 <input
                     type="text"
-                    name="busca"
-                    id="busca"
-                    placeholder="Buscar pistas..."
+                    name="search"
+                    id="search"
+                    placeholder="Search tracks..."
                     className="flex-1 rounded border border-slate-700 bg-slate-900 px-3 py-2 text-sm"
                 />
             </div>
